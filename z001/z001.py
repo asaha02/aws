@@ -7,6 +7,8 @@ def lambda_handler(event, context):
 	v4 = getJsonValue(event, "key4")
 	v5 = getJsonValue(event, "key5", "NA")
 
+# Commnet added to test gitkraken
+
 	print("Key1: {}".format(v1))
 	print("Key2: {}".format(v2))
 	print("Key3: {}".format(v3))
